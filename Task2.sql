@@ -25,3 +25,7 @@
     delete from patient where pid=10
     delete from patient where pid =11
     SET SQL_SAFE_UPDATES=1 
+     select fname,bg from patient where bg in(o+ve,b-ve)
+    select * from patient where fname like '%a'
+    update patient set fname='ravi' 
+    delete from patient
